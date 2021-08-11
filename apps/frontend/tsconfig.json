@@ -1,0 +1,21 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"baseUrl": "..",
+		"paths": {
+			"ui/*": ["ui/src/*"],
+			"components/*": ["frontend/components/*"],
+			"hooks/*": ["frontend/hooks/*"]
+		},
+		"sourceMap": true,
+		"module": "commonjs",
+		"target": "es5",
+		"jsx": "preserve",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "../../typings/*"],
+	"exclude": ["node_modules"]
+}

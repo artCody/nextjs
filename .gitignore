@@ -1,0 +1,12 @@
+.vscode
+.next
+.idea
+node_modules
+dist
+dist-ssr
+.DS_Store
+.vercel
+
+*.local
+
+.env
